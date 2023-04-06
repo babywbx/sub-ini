@@ -1,1 +1,2 @@
-AND,((DOMAIN-KEYWORD,japan), (DOMAIN-SUFFIX,discord.media))
+DOMAIN-KEYWORD,japan #给Clash用的傻方法...
+AND,((DOMAIN-KEYWORD,japan),(DOMAIN-SUFFIX,discord.media)) #还是Surge好！

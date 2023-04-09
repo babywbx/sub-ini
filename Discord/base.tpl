@@ -5,11 +5,14 @@ dns:
   listen: 0.0.0.0:53
   default-nameserver:
     - 119.29.29.29
-    - 8.8.8.8
+    - 223.5.5.5
   nameserver:
-   - https://1.1.1.1/dns-query
    - https://doh.pub/dns-query
    - https://223.5.5.5/dns-query
+  fallback:
+   - tls://1.1.1.1:853
+   - https://1.1.1.1/dns-query
+   - tls://dns.google
    - https://dns.google/dns-query
 
 {% endif %}
